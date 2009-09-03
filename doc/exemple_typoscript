@@ -1,0 +1,12 @@
+plugin.tx_ioceandownloadarea_pi1{
+
+   #point de montage (disponible en flexform)
+   rootPoint = fileadmin/templates
+   #liste des extensions  (disponible en flexform)
+   extForb = css,db
+   #détermine si la liste des extension est autorisée ou interdite (true = autorisé, false = interdite)
+   extConfig = true
+   #configure le template html utilisé par le plugin
+   templateFile = fileadmin/template/template.html
+
+}

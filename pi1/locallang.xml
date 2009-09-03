@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_ioceandownloadarea_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="directory_title">Directorys</label>
+			<label index="file_title">Files</label>
+			<label index="error_root_point">"root_point" variable is incorrect.</label>
+			<label index="name_prec">Prev</label>
+			<label index="name_suiv">Next</label>
+			<label index="date_format">m-d-Y</label>
+			<label index="unit_mo">Mo</label>
+			<label index="unit_ko">Ko</label>
+			<label index="unit_o">oct</label>
+			<label index="text_default">There is no file in this directory.</label>
+			<label index="text_default_dir">Click to subdirectory.</label>
+			<label index="alt_warning">Warning</label>
+			<label index="LABEL_singleView1">Name : </label>
+			<label index="LABEL_singleView2">Extention : </label>
+			<label index="LABEL_singleView3">Created date : </label>
+			<label index="LABEL_singleView4">Updated date : </label>
+			<label index="LABEL_singleView5">Size : </label>
+			<label index="LABEL_singleView6">View</label>
+			<label index="LABEL_singleView7">Download</label>
+			<label index="LABEL_singleView8">General survey : </label>
+			
+			<label index="bug_de_merde">oct</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="directory_title">Dossiers</label>
+			<label index="file_title">Fichiers</label>
+			<label index="error_root_point">La variable "root_point" est incorrecte.</label>
+			<label index="name_prec">Préc</label>
+			<label index="name_suiv">Suiv</label>
+			<label index="date_format">d-m-Y</label>
+			<label index="text_default">Il n'y a aucun fichier dans ce répertoire.</label>
+			<label index="text_default_dir">Cliquer sur un sous-répertoire.</label>
+			<label index="LABEL_singleView1">Nom : </label>
+			<label index="LABEL_singleView2">Extension : </label>
+			<label index="LABEL_singleView3">Date de création : </label>
+			<label index="LABEL_singleView4">Date de modification : </label>
+			<label index="LABEL_singleView5">Taille : </label>
+			<label index="LABEL_singleView6">Visualiser</label>
+			<label index="LABEL_singleView7">Télécharger</label>
+			<label index="LABEL_singleView8">Aperçu : </label>
+			
+			
+		</languageKey>
+		<languageKey index="es" type="array">
+			<label index="directory_title">Carpetas</label>
+			<label index="file_title">Ficheros</label>
+			<label index="error_root_point">La variable "root_point" es incorrecta.</label>
+			<label index="name_prec">Prec</label>
+			<label index="name_suiv">Sigu</label>
+			<label index="date_format">m-d-Y</label>
+			<label index="text_default">No hay ningún fichero en esta carpeta.</label>
+			<label index="text_default_dir">Haz click en el subdirectorio.</label>
+		</languageKey>
+			
+	</data>
+</T3locallang>

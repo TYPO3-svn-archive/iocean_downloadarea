@@ -1,0 +1,13 @@
+.principal_downloadarea .pagination_downloadarea {
+	margin-top: 10px;
+	text-align: center;
+	height:15px;
+}
+
+.principal_downloadarea .contour_right {
+	border: 0;
+	border-collapse: collapse;
+	width: 100%;
+	clear: both;
+	height: 175px;
+}

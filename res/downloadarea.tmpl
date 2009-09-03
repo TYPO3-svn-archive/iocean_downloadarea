@@ -1,0 +1,141 @@
+<head>
+ <!-- ###HEADER_PARTS### begin-->
+    <link rel="stylesheet" href="###SITE_REL_PATH###res/downloadarea.css" type="text/css" />
+    <!--[if IE 6]> <link rel="stylesheet" href="###SITE_REL_PATH###res/downloadareaie6.css" type="text/css" /> <![endif]-->
+    <script type="text/javascript" src="###SITE_REL_PATH###res/jquery-1.3.min.js"></script>
+    <script type="text/javascript" src="###SITE_REL_PATH###res/downloadarea.js"></script>
+    
+ <!-- ###HEADER_PARTS### end-->
+</head>
+
+
+
+<!-- ###PRINCIPAL### begin -->
+<div class="principal_downloadarea" style="display:none;">
+	<div class="blockg_downloadarea">
+		<table class="contour_left" >
+		<tr>
+			<td class="top_left"></td><td class="top_mid"></td><td class="top_right"></td>
+		</tr>
+		<tr>
+			<td class="mid_left"></td>
+			<td class="mid_mid">
+				<div class="title"><h2>###DIRECTORY_TITLE###</h2></div>
+				<div>###AFFICHE_ARBO###</div>
+			</td>
+			<td class="mid_right"></td>	
+		</tr>
+		<tr>
+			<td class="bot_left"></td><td class="bot_mid"></td><td class="bot_right"></td>
+		</tr>
+		</table> 	
+	</div>
+	<div  class="blockd_downloadarea">
+		<table class="contour_right" >
+		<tr>
+			<td class="top_left"></td><td class="top_mid"></td><td class="top_right"></td>
+		</tr>
+		<tr>
+			<td class="mid_left"></td>
+			<td class="mid_mid">
+				<div class="title"><h2 id="title_directory">###FILE_TITLE###</h2></div>
+				<div>
+					###AFFICHE_CONTENU###
+					<div class="fichier default_fichier" style="display:none;">###TEXT_DEFAULT###</div>
+					<div class="fichier default_directory" style="display:none;">###TEXT_DEFAULT_DIR###</div>
+				</div>
+			</td>
+			<td class="mid_right"></td>	
+		</tr>
+		<tr>
+			<td class="mid_left_pag"></td>
+			<td class="mid_mid_pag">
+				<div class="pagination_downloadarea">###AFFICHE_PAGINATION###</div>
+			</td>
+			<td class="mid_right_pag"></td>		
+		</tr>
+		<tr>
+			<td class="mid_left_pag"></td>
+			<td class="mid_mid_pag">
+				<div class="singleview_downloadarea" id="singleView" >###AFFICHE_SINGLEVIEW###</div>
+			</td>
+			<td class="mid_right_pag"></td>		
+		</tr>
+		<tr>
+			<td class="bot_left"></td><td class="bot_mid"></td><td class="bot_right"></td>
+		</tr>
+		</table>
+	
+	</div>
+	<div class="clear"></div> 
+</div>
+
+<!-- ###PRINCIPAL### end -->
+
+<!-- ###ARBO_ITEM### begin -->
+	<div class="niv_arbo">
+		###NIV###
+		###BUTTON###
+		###NOM###
+	</div>
+	###SOUS_ARBO###
+<!-- ###ARBO_ITEM### end -->	
+	
+<!-- ###SOUS_ARBO_ITEM### begin -->	
+	<div class="sous_arbo" id="###ID_DIV###" style="display:###DISPLAY###;">
+		###CONTENU###
+	</div>
+<!-- ###SOUS_ARBO_ITEM### end -->
+
+<!-- ###LIEN_DOSSIER### begin -->
+	<a href="###HREF###" class="JqueryDossier">###NOM### ###NBR###</a>
+<!-- ###LIEN_DOSSIER### end -->
+
+<!-- ###BUTTON_PLUS### begin -->
+	<a id="###ID_DIV###_button" class="###CLASS_BUTTON###" /></a>
+<!-- ###BUTTON_PLUS### end -->
+
+<!-- ###SEPARATOR_ARBO### -->
+	<img src="###LIEN_IMAGE###" class="join" width="15" height="20" alt="jointure"/>
+<!-- ###SEPARATOR_ARBO### -->
+
+
+<!-- ###VISUAL_DOSSIER### begin -->
+	<div class="fichier ###COUNT###_fichier_###DOSSIER###" style="display:none;">###LIEN_FICHIER######INFORMATION###</div>
+<!-- ###VISUAL_DOSSIER### end -->
+
+<!-- ###PAGINATION### begin -->
+	<input class="chemin" type="hidden" name="dossier" value="">
+	<input class="pagination" type="hidden" name="pagination" value="0">
+	<input id="pagination_max" type="hidden" name="pagination" value="0">
+	<span id="prec" style="display:none;">&laquo; <a class="JqueryPagination" href="prec">###NAME_PREC###</a></span>
+	<span id="prec_stable" class="staticPagination" style="display:none;">&laquo; ###NAME_PREC###</span>
+	<span id="suiv" style="display:none;"><a class="JqueryPagination" href="suiv">###NAME_SUIV###</a> &raquo;</span>
+	<span id="suiv_stable" class="staticPagination" style="display:none;">###NAME_SUIV### &raquo;</span>
+<!-- ###PAGINATION### end -->
+
+<!-- ###IMG_EXT### begin -->
+<img src="###SRC###"/>
+<!-- ###IMG_EXT### end -->
+
+<!-- ###LINK_AJAX### begin -->
+<a href="###HREF###" class="AjaxSingleView">###LINK###</a>
+<!-- ###LINK_AJAX### end -->
+
+<!-- ###SINGLEVIEW### begin -->
+<div>
+	<hr class="singleView"/>
+	<div class="icones"><span class="label">###EXT###</span><span class="label">###LINK###</span><span class="label">###LINKD###</span></div>
+	<div><span class="label">###LABEL1###</span>###NAME###</div>
+	<div><span class="label">###LABEL3###</span>###DATEC###</div>
+	<div><span class="label">###LABEL4###</span>###DATEM###</div>
+	<div><span class="label">###LABEL5###</span>###SIZE###</div>
+	<!--<div><span class="label">###LABEL6###</span>###LINK###</div>
+	<div><span class="label">###LABEL7###</span>###LINKD###</div>-->
+	<div><span class="label">###LABEL8###</span></div>
+	<div class="image">###IMG###</div>
+</div>
+<!-- ###SINGLEVIEW### end -->
+
+
+
