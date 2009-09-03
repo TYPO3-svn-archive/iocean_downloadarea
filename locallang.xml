@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'iocean_downloadarea'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">Download area</label>
+			<label index="pi1_plus_wiz_description">show file's tree view</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="pi1_title">Espace de téléchargement</label>
+			<label index="pi1_plus_wiz_description">Affiche une arborescence de fichier</label>
+		</languageKey>
+		<languageKey index="es" type="array">
+			<label index="pi1_title">Espacio de escarga</label>
+			<label index="pi1_plus_wiz_description">Enseña la estructura jerárquica de fichero</label>
+		</languageKey>
+	</data>
+</T3locallang>

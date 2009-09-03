@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields
+			belonging to extension 'iocean_downloadarea'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">Download area</label>
+			<label index="ongleTitle">Configuration</label>
+			<label index="depli_auto">Tree automatic deployment</label>
+			<label index="nombre_fichier">Files per pagination</label>
+			<label index="pt_encrage">Tree main folder</label>
+			<label index="ext_forb">Extension List</label>
+			<label index="FolderSelector">Folder selector</label>
+			<label index="singleView">Use single view</label>
+			<label index="extConfig">Les extensions saisies précédemment doivent être</label>
+			<label index="extConfig_option1">autorisées</label>
+			<label index="extConfig_option2">interdites</label>
+			<label index="display_time">Afficher la date de modification du fichier</label>
+			<label index="display_size">Afficher la taille du fichier</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="tt_content.list_type_pi1">Espace de téléchargement</label>
+			<label index="ongleTitle">Configuration</label>
+			<label index="depli_auto">Déploiement automatique de l'arborescence</label>
+			<label index="nombre_fichier">Nombre de fichiers par pagination</label>
+			<label index="pt_encrage">Dossier de départ de l'arborescence</label>
+			<label index="ext_forb">Extension interdite</label>
+			<label index="FolderSelector">Selection de dossier</label>
+		</languageKey>
+		<languageKey index="es" type="array">
+			<label index="tt_content.list_type_pi1">Espacio de descarga</label>
+			<label index="ongleTitle">Configuración</label>
+			<label index="depli_auto">Despliegue automático de la arborescencia</label>
+			<label index="nombre_fichier">Número de ficheros por paginá</label>
+			<label index="pt_encrage">Carpeta raíz de la estructura jerárquica</label>
+			<label index="ext_forb">Extensión prohibida</label>
+			<label index="FolderSelector">Selección de carpeta</label>
+		</languageKey>
+	</data>
+</T3locallang>

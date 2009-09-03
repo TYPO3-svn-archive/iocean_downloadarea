@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:iocean_downloadarea/locallang_db.xml:ongleTitle</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<openAllTree>
+						<TCEforms>
+							<label>
+								LLL:EXT:iocean_downloadarea/locallang_db.xml:depli_auto
+							</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</openAllTree>
+					<fileStep>
+						<TCEforms>
+							<label>
+								LLL:EXT:iocean_downloadarea/locallang_db.xml:nombre_fichier
+							</label>
+							<config>
+								<type>input</type>
+								<size>2</size>
+							</config>
+						</TCEforms>
+					</fileStep>
+					<extList>
+						<TCEforms>
+							<label>
+								LLL:EXT:iocean_downloadarea/locallang_db.xml:ext_forb
+							</label>
+							<config>
+								<type>input</type>
+								<size>25</size>
+							</config>
+						</TCEforms>
+					</extList>
+					<extConfig>
+						<TCEforms>
+							<label>
+								LLL:EXT:iocean_downloadarea/locallang_db.xml:extConfig
+							</label>
+							<config>
+								<type>radio</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:iocean_downloadarea/locallang_db.xml:extConfig_option1</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:iocean_downloadarea/locallang_db.xml:extConfig_option2</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</extConfig>
+					<rootPoint>
+						<TCEforms>
+							<label>
+								LLL:EXT:iocean_downloadarea/locallang_db.xml:pt_encrage
+							</label>
+							<config>
+								<type>input</type>
+								<size>25</size>
+								<wizards>
+									<_PADDING>2</_PADDING>
+									<link>
+										<type>popup</type>
+										<title>LLL:EXT:iocean_downloadarea/locallang_db.xml:FolderSelector</title>
+										<icon>link_popup.gif</icon>
+										<script>EXT:rgfolderselector/browse_links.php</script>
+										<JSopenParams>height=400,width=400,status=0,menubar=0,scrollbars=1</JSopenParams>
+									</link>
+								</wizards>
+							</config>
+						</TCEforms>
+					</rootPoint>
+					<singleView>
+						<TCEforms>
+							<label>
+								LLL:EXT:iocean_downloadarea/locallang_db.xml:singleView
+							</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</singleView>
+					<displayTime>
+						<TCEforms>
+							<label>
+								LLL:EXT:iocean_downloadarea/locallang_db.xml:display_time
+							</label>
+							<config>
+								<type>check</type>
+								<default>1</default>
+							</config>
+						</TCEforms>
+					</displayTime>
+					<displaySize>
+						<TCEforms>
+							<label>
+								LLL:EXT:iocean_downloadarea/locallang_db.xml:display_size
+							</label>
+							<config>
+								<type>check</type>
+								<default>1</default>
+							</config>
+						</TCEforms>
+					</displaySize>
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>
+
+	
+	

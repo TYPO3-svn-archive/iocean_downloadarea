@@ -1,0 +1,2 @@
+# cat=basic//06; type=string; label=Extension forbiden list : Default extension forbiden list
+EXTENTION = php,exe,bin,jsp,tb
